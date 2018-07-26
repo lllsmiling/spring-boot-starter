@@ -29,7 +29,7 @@ spring:
 
 db:
   datasource:
-    url: jdbc:mysql://${MYSQL_HOST:192.168.100.149}:3306/testSpring?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&allowMultiQueries=true
+    url: jdbc:mysql://${MYSQL_HOST:127.0.0.1}:3306/testSpring?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&allowMultiQueries=true
     driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: ycmediadb.149
+    username: 111
+    password: 1111
